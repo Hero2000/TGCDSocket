@@ -1,0 +1,10 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.activity.req";
+option java_outer_classname = "ActivityListReqProto";
+
+message ActivityListReq{
+	required int64 userId = 1;
+	required int32 page= 2;
+	required int32 pageSize= 3;
+	required int64 lastReqTime= 4;
+}

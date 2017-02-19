@@ -1,0 +1,22 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.album.resp";
+option java_outer_classname = "SubscribeAlbumRespProto";
+
+message SubscribeAlbumResp{
+	required int64 state= 1;
+	
+	required string msg = 2;
+
+	optional Result result = 3;
+	
+	message Result{
+		required int64 albumId=1;
+		required string albumName=2;
+		required string albumCover=3;
+		required int64 createTime=4;
+		required int64 lastUpdTime=5;
+		required int64 subscribeCount=6;
+		required int64 albumVoiceCount=7;
+	}
+	
+}

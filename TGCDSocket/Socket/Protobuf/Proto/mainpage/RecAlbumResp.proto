@@ -1,0 +1,27 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.mainpage.resp";
+option java_outer_classname = "RecAlbumRespProto";
+
+message RecAlbumResp{
+	required int64 state = 1;
+	required string msg = 2;
+	required int64 thisReqTime = 3;
+	repeated ObjRecAlbum objRecAlbum= 4;
+	
+	message ObjRecAlbum{
+		required int64 albumId=1;
+		required string albumName = 2;
+		required string albumDesc = 3;
+		required string albumCover = 4;
+		required int64 createTime = 5;
+		required int64 albumType = 6;
+		required int64 lastUpdTime = 7;
+		required int64 subscribeCount = 8;
+		required int64 userId =9;
+		required string nickname = 10;
+		required string avatar = 11;
+		required int64 albumVoiceCount = 12;
+		required int64 friendSubscribeCount = 13;
+	}
+	
+}

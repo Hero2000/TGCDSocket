@@ -1,0 +1,13 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.account.resp";
+option java_outer_classname = "EditProtraitRespProto";
+
+message EditProtraitResp{	
+	required int64 state = 1;
+	required string msg = 2;
+	optional Result result = 3;
+	
+	message Result{
+		required string avatar = 1;
+	}
+}

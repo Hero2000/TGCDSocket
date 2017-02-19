@@ -1,0 +1,7 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.common.resp";
+option java_outer_classname = "ReconnectRespProto";
+
+message ReconnectResp{
+	optional bool isSucceed = 1;
+}

@@ -1,0 +1,25 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.account.resp";
+option java_outer_classname = "ReadPersonalProfileRespProto";
+
+message ReadPersonalProfileResp{
+	required int64 state = 1;
+	optional string msg = 2;
+	optional Result result = 3;
+	message Result{
+		required int64 userId=1;
+		required string nickname= 2;
+		required string avatar= 3;
+		required string signature=4;
+		required string profile= 5;
+		required int64 sex= 6;
+		required string province=7;
+		required string city= 8;
+		required int64 voiceCount= 9;
+		required int64 followCount=10;
+		required int64 followerCount=11;
+		required int64 level=12;
+		required int64 albumCount=13;
+		required int64 likeCount=14;
+	}
+}

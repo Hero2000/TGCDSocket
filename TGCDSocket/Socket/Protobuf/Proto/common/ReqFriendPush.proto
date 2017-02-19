@@ -1,0 +1,12 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.common.push";
+option java_outer_classname = "ReqFriendPushProto";
+
+message ReqFriendPush{
+	required int64 fromUserId=1;
+	required string fromNickname = 2;
+	optional string msg = 3;
+	required int64 reqTime = 4;
+	required string fromAvatar = 6;
+	required int64 fromLevel = 7;
+}

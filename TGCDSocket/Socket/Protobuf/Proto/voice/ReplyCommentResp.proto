@@ -1,0 +1,19 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.voice.resp";
+option java_outer_classname = "ReplyCommentRespProto";
+
+message ReplyCommentResp{
+	required int64 state = 1;
+	
+	required string msg = 2;
+
+	optional Result result = 3;
+	
+	message Result {
+		required int64 	replyId=1;
+		required int64 commentId=2;
+		required int64 lastReplyId=3;
+		required int64 replyTime=4;
+	}
+	
+}

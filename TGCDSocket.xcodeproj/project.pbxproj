@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B9E3EB0CCC6ECD96890964D /* libPods-TGCDSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3569D298FA481F6E42B873 /* libPods-TGCDSocket.a */; };
+		9D05B53A1D81162800D3193E /* HHSocketAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D05B5391D81162800D3193E /* HHSocketAPIManager.m */; };
+		9D05B5461D8149BA00D3193E /* OTSFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D05B5451D8149BA00D3193E /* OTSFriend.m */; };
+		9D05B54A1D814A0800D3193E /* NSObject+LogAllProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D05B5491D814A0800D3193E /* NSObject+LogAllProperties.m */; };
+		9D40AB181D77B87A00D99DEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D40AB171D77B87A00D99DEF /* main.m */; };
+		9D40AB1B1D77B87A00D99DEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D40AB1A1D77B87A00D99DEF /* AppDelegate.m */; };
+		9D40AB1E1D77B87A00D99DEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D40AB1D1D77B87A00D99DEF /* ViewController.m */; };
+		9D40AB211D77B87A00D99DEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D40AB1F1D77B87A00D99DEF /* Main.storyboard */; };
+		9D40AB231D77B87A00D99DEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D40AB221D77B87A00D99DEF /* Assets.xcassets */; };
+		9D40AB261D77B87A00D99DEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D40AB241D77B87A00D99DEF /* LaunchScreen.storyboard */; };
+		9D40B0A11D77C2A200D99DEF /* NSObject+ProtobufExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D40B09E1D77C2A200D99DEF /* NSObject+ProtobufExtension.m */; };
+		9D40B0A21D77C2A200D99DEF /* HHClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D40B0A01D77C2A200D99DEF /* HHClassInfo.m */; };
+		9D40B0F11D77C42B00D99DEF /* HHSocketTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D40B0F01D77C42B00D99DEF /* HHSocketTask.m */; };
+		9D40B0F41D77D27E00D99DEF /* HHSocketRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D40B0F31D77D27E00D99DEF /* HHSocketRequest.m */; };
+		9D40B0F71D77D78B00D99DEF /* HHDataFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D40B0F61D77D78B00D99DEF /* HHDataFormatter.m */; };
+		9D769FEB1E5548210064B02A /* HHSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D769FEA1E5548210064B02A /* HHSocketClient.m */; };
+		9D769FF71E558E630064B02A /* HHAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D769FF61E558E630064B02A /* HHAppContext.m */; };
+		9D769FFE1E55AC140064B02A /* HHNetworkAPIRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D769FFD1E55AC140064B02A /* HHNetworkAPIRecorder.m */; };
+		9D88113B1E53FF1B001C2E4E /* HHNetworkTaskGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D88113A1E53FF1B001C2E4E /* HHNetworkTaskGroup.m */; };
+		9D88113E1E53FFE7001C2E4E /* HHSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D88113D1E53FFE7001C2E4E /* HHSocket.m */; };
+		9D8811441E5400BA001C2E4E /* HHSocketService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8811431E5400BA001C2E4E /* HHSocketService.m */; };
+		9DAA74821E4DA4B40075D77C /* HHSocketHeartbeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAA74811E4DA4B40075D77C /* HHSocketHeartbeat.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C3569D298FA481F6E42B873 /* libPods-TGCDSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TGCDSocket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D05B5381D81162800D3193E /* HHSocketAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSocketAPIManager.h; sourceTree = "<group>"; };
+		9D05B5391D81162800D3193E /* HHSocketAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSocketAPIManager.m; sourceTree = "<group>"; };
+		9D05B5441D8149BA00D3193E /* OTSFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSFriend.h; sourceTree = "<group>"; };
+		9D05B5451D8149BA00D3193E /* OTSFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSFriend.m; sourceTree = "<group>"; };
+		9D05B5481D814A0800D3193E /* NSObject+LogAllProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LogAllProperties.h"; sourceTree = "<group>"; };
+		9D05B5491D814A0800D3193E /* NSObject+LogAllProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LogAllProperties.m"; sourceTree = "<group>"; };
+		9D40AB131D77B87900D99DEF /* TGCDSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGCDSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D40AB171D77B87A00D99DEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D40AB191D77B87A00D99DEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D40AB1A1D77B87A00D99DEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D40AB1C1D77B87A00D99DEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D40AB1D1D77B87A00D99DEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D40AB201D77B87A00D99DEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D40AB221D77B87A00D99DEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D40AB251D77B87A00D99DEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D40AB271D77B87A00D99DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D40AB311D77BC5F00D99DEF /* HHSocketConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HHSocketConfig.h; path = ../../HHSocketConfig.h; sourceTree = "<group>"; };
+		9D40B09D1D77C2A200D99DEF /* NSObject+ProtobufExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+ProtobufExtension.h"; path = "../APIManager/NSObject+ProtobufExtension.h"; sourceTree = "<group>"; };
+		9D40B09E1D77C2A200D99DEF /* NSObject+ProtobufExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ProtobufExtension.m"; path = "../APIManager/NSObject+ProtobufExtension.m"; sourceTree = "<group>"; };
+		9D40B09F1D77C2A200D99DEF /* HHClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HHClassInfo.h; path = ../APIManager/HHClassInfo.h; sourceTree = "<group>"; };
+		9D40B0A01D77C2A200D99DEF /* HHClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HHClassInfo.m; path = ../APIManager/HHClassInfo.m; sourceTree = "<group>"; };
+		9D40B0EF1D77C42B00D99DEF /* HHSocketTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSocketTask.h; sourceTree = "<group>"; };
+		9D40B0F01D77C42B00D99DEF /* HHSocketTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSocketTask.m; sourceTree = "<group>"; };
+		9D40B0F21D77D27E00D99DEF /* HHSocketRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSocketRequest.h; sourceTree = "<group>"; };
+		9D40B0F31D77D27E00D99DEF /* HHSocketRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSocketRequest.m; sourceTree = "<group>"; };
+		9D40B0F51D77D78B00D99DEF /* HHDataFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHDataFormatter.h; sourceTree = "<group>"; };
+		9D40B0F61D77D78B00D99DEF /* HHDataFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHDataFormatter.m; sourceTree = "<group>"; };
+		9D40B0F81D7803E700D99DEF /* HHSocketTask+Friend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HHSocketTask+Friend.h"; sourceTree = "<group>"; };
+		9D769FE91E5548210064B02A /* HHSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSocketClient.h; sourceTree = "<group>"; };
+		9D769FEA1E5548210064B02A /* HHSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSocketClient.m; sourceTree = "<group>"; };
+		9D769FF31E5587B40064B02A /* HHSocketClient+Friend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HHSocketClient+Friend.h"; sourceTree = "<group>"; };
+		9D769FF41E558B3E0064B02A /* HHNetworkTaskError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHNetworkTaskError.h; sourceTree = "<group>"; };
+		9D769FF51E558E630064B02A /* HHAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAppContext.h; sourceTree = "<group>"; };
+		9D769FF61E558E630064B02A /* HHAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAppContext.m; sourceTree = "<group>"; };
+		9D769FFC1E55AC140064B02A /* HHNetworkAPIRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHNetworkAPIRecorder.h; sourceTree = "<group>"; };
+		9D769FFD1E55AC140064B02A /* HHNetworkAPIRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHNetworkAPIRecorder.m; sourceTree = "<group>"; };
+		9D8811391E53FF1B001C2E4E /* HHNetworkTaskGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHNetworkTaskGroup.h; sourceTree = "<group>"; };
+		9D88113A1E53FF1B001C2E4E /* HHNetworkTaskGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHNetworkTaskGroup.m; sourceTree = "<group>"; };
+		9D88113C1E53FFE7001C2E4E /* HHSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSocket.h; sourceTree = "<group>"; };
+		9D88113D1E53FFE7001C2E4E /* HHSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSocket.m; sourceTree = "<group>"; };
+		9D8811421E5400BA001C2E4E /* HHSocketService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSocketService.h; sourceTree = "<group>"; };
+		9D8811431E5400BA001C2E4E /* HHSocketService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSocketService.m; sourceTree = "<group>"; };
+		9DAA74801E4DA4B40075D77C /* HHSocketHeartbeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSocketHeartbeat.h; sourceTree = "<group>"; };
+		9DAA74811E4DA4B40075D77C /* HHSocketHeartbeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSocketHeartbeat.m; sourceTree = "<group>"; };
+		9DD990751E56966F00E4DC55 /* HHSocketRequest+Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HHSocketRequest+Friend.h"; sourceTree = "<group>"; };
+		9ED1DB6984C9D9A2C892D8B6 /* Pods-TGCDSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCDSocket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TGCDSocket/Pods-TGCDSocket.debug.xcconfig"; sourceTree = "<group>"; };
+		D1BC8EB8026B9DFBA0A908BC /* Pods-TGCDSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGCDSocket.release.xcconfig"; path = "Pods/Target Support Files/Pods-TGCDSocket/Pods-TGCDSocket.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D40AB101D77B87900D99DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9E3EB0CCC6ECD96890964D /* libPods-TGCDSocket.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11F74F60A6ED493F840F5122 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C3569D298FA481F6E42B873 /* libPods-TGCDSocket.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54A3D88B2C8EA5F8C37B239E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ED1DB6984C9D9A2C892D8B6 /* Pods-TGCDSocket.debug.xcconfig */,
+				D1BC8EB8026B9DFBA0A908BC /* Pods-TGCDSocket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D40AB0A1D77B87900D99DEF = {
+			isa = PBXGroup;
+			children = (
+				9D40AB151D77B87A00D99DEF /* TGCDSocket */,
+				9D40AB141D77B87900D99DEF /* Products */,
+				54A3D88B2C8EA5F8C37B239E /* Pods */,
+				11F74F60A6ED493F840F5122 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D40AB141D77B87900D99DEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D40AB131D77B87900D99DEF /* TGCDSocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D40AB151D77B87A00D99DEF /* TGCDSocket */ = {
+			isa = PBXGroup;
+			children = (
+				9D40AB341D77C25600D99DEF /* Socket */,
+				9D05B5441D8149BA00D3193E /* OTSFriend.h */,
+				9D05B5451D8149BA00D3193E /* OTSFriend.m */,
+				9D05B5481D814A0800D3193E /* NSObject+LogAllProperties.h */,
+				9D05B5491D814A0800D3193E /* NSObject+LogAllProperties.m */,
+				9D40AB191D77B87A00D99DEF /* AppDelegate.h */,
+				9D40AB1A1D77B87A00D99DEF /* AppDelegate.m */,
+				9D40AB1C1D77B87A00D99DEF /* ViewController.h */,
+				9D40AB1D1D77B87A00D99DEF /* ViewController.m */,
+				9D40AB161D77B87A00D99DEF /* Supporting Files */,
+			);
+			path = TGCDSocket;
+			sourceTree = "<group>";
+		};
+		9D40AB161D77B87A00D99DEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D40AB1F1D77B87A00D99DEF /* Main.storyboard */,
+				9D40AB221D77B87A00D99DEF /* Assets.xcassets */,
+				9D40AB241D77B87A00D99DEF /* LaunchScreen.storyboard */,
+				9D40AB271D77B87A00D99DEF /* Info.plist */,
+				9D40AB171D77B87A00D99DEF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D40AB341D77C25600D99DEF /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				9D40AB361D77C25600D99DEF /* Protobuf */,
+				9D40AB351D77C25600D99DEF /* SocketClient */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		9D40AB351D77C25600D99DEF /* SocketClient */ = {
+			isa = PBXGroup;
+			children = (
+				9D769FF91E55ABBF0064B02A /* Utils */,
+				9D769FFA1E55ABCC0064B02A /* Socket */,
+				9D769FFB1E55ABEC0064B02A /* APIManager */,
+			);
+			name = SocketClient;
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		9D40AB361D77C25600D99DEF /* Protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				9D40B09F1D77C2A200D99DEF /* HHClassInfo.h */,
+				9D40B0A01D77C2A200D99DEF /* HHClassInfo.m */,
+				9D40B09D1D77C2A200D99DEF /* NSObject+ProtobufExtension.h */,
+				9D40B09E1D77C2A200D99DEF /* NSObject+ProtobufExtension.m */,
+			);
+			path = Protobuf;
+			sourceTree = "<group>";
+		};
+		9D769FF91E55ABBF0064B02A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9D40AB311D77BC5F00D99DEF /* HHSocketConfig.h */,
+				9D769FF41E558B3E0064B02A /* HHNetworkTaskError.h */,
+				9D769FF51E558E630064B02A /* HHAppContext.h */,
+				9D769FF61E558E630064B02A /* HHAppContext.m */,
+				9D8811391E53FF1B001C2E4E /* HHNetworkTaskGroup.h */,
+				9D88113A1E53FF1B001C2E4E /* HHNetworkTaskGroup.m */,
+				9D769FFC1E55AC140064B02A /* HHNetworkAPIRecorder.h */,
+				9D769FFD1E55AC140064B02A /* HHNetworkAPIRecorder.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		9D769FFA1E55ABCC0064B02A /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				9D40B0F51D77D78B00D99DEF /* HHDataFormatter.h */,
+				9D40B0F61D77D78B00D99DEF /* HHDataFormatter.m */,
+				9D88113C1E53FFE7001C2E4E /* HHSocket.h */,
+				9D88113D1E53FFE7001C2E4E /* HHSocket.m */,
+				9D8811421E5400BA001C2E4E /* HHSocketService.h */,
+				9D8811431E5400BA001C2E4E /* HHSocketService.m */,
+				9D40B0F21D77D27E00D99DEF /* HHSocketRequest.h */,
+				9D40B0F31D77D27E00D99DEF /* HHSocketRequest.m */,
+				9DD990751E56966F00E4DC55 /* HHSocketRequest+Friend.h */,
+				9D40B0EF1D77C42B00D99DEF /* HHSocketTask.h */,
+				9D40B0F01D77C42B00D99DEF /* HHSocketTask.m */,
+				9D40B0F81D7803E700D99DEF /* HHSocketTask+Friend.h */,
+				9D769FE91E5548210064B02A /* HHSocketClient.h */,
+				9D769FEA1E5548210064B02A /* HHSocketClient.m */,
+				9D769FF31E5587B40064B02A /* HHSocketClient+Friend.h */,
+			);
+			name = Socket;
+			sourceTree = "<group>";
+		};
+		9D769FFB1E55ABEC0064B02A /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				9DAA74801E4DA4B40075D77C /* HHSocketHeartbeat.h */,
+				9DAA74811E4DA4B40075D77C /* HHSocketHeartbeat.m */,
+				9D05B5381D81162800D3193E /* HHSocketAPIManager.h */,
+				9D05B5391D81162800D3193E /* HHSocketAPIManager.m */,
+			);
+			name = APIManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D40AB121D77B87900D99DEF /* TGCDSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D40AB2A1D77B87A00D99DEF /* Build configuration list for PBXNativeTarget "TGCDSocket" */;
+			buildPhases = (
+				EF1B73A91B2B94020D2344BB /* [CP] Check Pods Manifest.lock */,
+				9D40AB0F1D77B87900D99DEF /* Sources */,
+				9D40AB101D77B87900D99DEF /* Frameworks */,
+				9D40AB111D77B87900D99DEF /* Resources */,
+				08B0BA3B5BD28B782AD2B375 /* [CP] Embed Pods Frameworks */,
+				5831DB3CA5F6C1DDAAA6FF7B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGCDSocket;
+			productName = TGCDSocket;
+			productReference = 9D40AB131D77B87900D99DEF /* TGCDSocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D40AB0B1D77B87900D99DEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "黑花白花";
+				TargetAttributes = {
+					9D40AB121D77B87900D99DEF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = CMT7G783YL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9D40AB0E1D77B87900D99DEF /* Build configuration list for PBXProject "TGCDSocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D40AB0A1D77B87900D99DEF;
+			productRefGroup = 9D40AB141D77B87900D99DEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D40AB121D77B87900D99DEF /* TGCDSocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D40AB111D77B87900D99DEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D40AB261D77B87A00D99DEF /* LaunchScreen.storyboard in Resources */,
+				9D40AB231D77B87A00D99DEF /* Assets.xcassets in Resources */,
+				9D40AB211D77B87A00D99DEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08B0BA3B5BD28B782AD2B375 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TGCDSocket/Pods-TGCDSocket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5831DB3CA5F6C1DDAAA6FF7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TGCDSocket/Pods-TGCDSocket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF1B73A91B2B94020D2344BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D40AB0F1D77B87900D99DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D769FEB1E5548210064B02A /* HHSocketClient.m in Sources */,
+				9D769FF71E558E630064B02A /* HHAppContext.m in Sources */,
+				9D769FFE1E55AC140064B02A /* HHNetworkAPIRecorder.m in Sources */,
+				9D40B0A11D77C2A200D99DEF /* NSObject+ProtobufExtension.m in Sources */,
+				9D40B0A21D77C2A200D99DEF /* HHClassInfo.m in Sources */,
+				9D40B0F41D77D27E00D99DEF /* HHSocketRequest.m in Sources */,
+				9DAA74821E4DA4B40075D77C /* HHSocketHeartbeat.m in Sources */,
+				9D05B5461D8149BA00D3193E /* OTSFriend.m in Sources */,
+				9D40B0F71D77D78B00D99DEF /* HHDataFormatter.m in Sources */,
+				9D88113E1E53FFE7001C2E4E /* HHSocket.m in Sources */,
+				9D40AB1E1D77B87A00D99DEF /* ViewController.m in Sources */,
+				9D05B54A1D814A0800D3193E /* NSObject+LogAllProperties.m in Sources */,
+				9D8811441E5400BA001C2E4E /* HHSocketService.m in Sources */,
+				9D40AB1B1D77B87A00D99DEF /* AppDelegate.m in Sources */,
+				9D88113B1E53FF1B001C2E4E /* HHNetworkTaskGroup.m in Sources */,
+				9D05B53A1D81162800D3193E /* HHSocketAPIManager.m in Sources */,
+				9D40B0F11D77C42B00D99DEF /* HHSocketTask.m in Sources */,
+				9D40AB181D77B87A00D99DEF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D40AB1F1D77B87A00D99DEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D40AB201D77B87A00D99DEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D40AB241D77B87A00D99DEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D40AB251D77B87A00D99DEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D40AB281D77B87A00D99DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D40AB291D77B87A00D99DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D40AB2B1D77B87A00D99DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED1DB6984C9D9A2C892D8B6 /* Pods-TGCDSocket.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CMT7G783YL;
+				INFOPLIST_FILE = TGCDSocket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HeiHuaBaiHua.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		9D40AB2C1D77B87A00D99DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1BC8EB8026B9DFBA0A908BC /* Pods-TGCDSocket.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CMT7G783YL;
+				INFOPLIST_FILE = TGCDSocket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HeiHuaBaiHua.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D40AB0E1D77B87900D99DEF /* Build configuration list for PBXProject "TGCDSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D40AB281D77B87A00D99DEF /* Debug */,
+				9D40AB291D77B87A00D99DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D40AB2A1D77B87A00D99DEF /* Build configuration list for PBXNativeTarget "TGCDSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D40AB2B1D77B87A00D99DEF /* Debug */,
+				9D40AB2C1D77B87A00D99DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D40AB0B1D77B87900D99DEF /* Project object */;
+}

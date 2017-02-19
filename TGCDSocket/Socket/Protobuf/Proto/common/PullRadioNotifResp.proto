@@ -1,0 +1,16 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.common.resp";
+option java_outer_classname = "PullRadioNotifRespProto";
+
+message PullRadioNotifResp{
+	required int64 state=1;
+	required string msg = 2;
+	required int64 thisReqTime=3;
+	repeated ObjRadioNotif objRadioNotif = 4;
+	message ObjRadioNotif{
+		required int64 voiceId = 1;
+		required string voiceName = 2;
+		required int64 releaseTime = 3;
+		required int64 userId = 4;
+	}
+}

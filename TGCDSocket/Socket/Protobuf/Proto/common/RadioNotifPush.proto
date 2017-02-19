@@ -1,0 +1,10 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.common.push";
+option java_outer_classname = "RadioNotifPushProto";
+
+message RadioNotifPush{
+	required int64 voiceId = 1;
+	required string voiceName = 2;
+	required int64 releaseTime = 3;
+	required int64 userId = 4;
+}

@@ -1,0 +1,10 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.user.req";
+option java_outer_classname = "FriendReqProto";
+
+message FriendReq{
+	required int64 userId = 1;
+	required int64 otherUserId = 2;
+	required int64 type = 3;
+	optional string msg = 4;
+}

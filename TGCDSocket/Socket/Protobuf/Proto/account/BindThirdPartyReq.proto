@@ -1,0 +1,9 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.account.req";
+option java_outer_classname = "BindThirdPartyReqProto";
+
+message BindThirdPartyReq{
+	required int64 userId= 1;
+	required string bindUid= 2;
+	required int64 thirdParty=3;
+}

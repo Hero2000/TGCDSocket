@@ -1,0 +1,13 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.group.req";
+option java_outer_classname = "CreateGroupReqProto";
+
+message CreateGroupReq{
+	required string groupName=1;
+	required int64 groupType = 2;
+	required string groupLogo=3;
+	required int64 userId=4;
+	required string groupMasterName=5;
+	required int64 groupJoinAudit=6;
+	repeated int64 memberIdList = 7;
+}

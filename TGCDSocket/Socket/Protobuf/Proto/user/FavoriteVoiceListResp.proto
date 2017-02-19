@@ -1,0 +1,31 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.user.resp";
+option java_outer_classname = "FavoriteVoiceListRespProto";
+
+message FavoriteVoiceListResp{
+	required int64 state = 1;
+
+	required string msg = 2;
+
+	optional Result result = 3;
+	
+	message Result {
+		required int64 lastReqTime=1;
+		required int64 totalCount=2;
+		repeated ObjVoice objVoice=3;
+		
+	}
+	
+	message ObjVoice {
+		required int64 voiceId =1;
+		required string voiceName =2;
+		required string voiceDesc=3;
+		required string voicePath =4;
+		required int64 playCount =5;
+		required int64 voiceLength =6;
+		required int64 favoriteUpdTime=7;
+		repeated string voicePic=8;
+		required string favoriteName =9;
+	}
+	
+}

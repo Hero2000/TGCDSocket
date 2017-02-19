@@ -1,0 +1,12 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.user.req";
+option java_outer_classname = "UserVoiceListReqProto";
+
+message UserVoiceListReq{
+	required int64 userId=1;
+	required int64 lastReqTime=2;
+	optional int32 page=3;
+	optional int32 pageSize=4;
+	required int64 loginUserId=5;
+	required int64 requestType=6;
+}

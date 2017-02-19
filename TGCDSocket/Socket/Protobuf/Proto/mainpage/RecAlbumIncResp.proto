@@ -1,0 +1,14 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.mainpage.resp";
+option java_outer_classname = "RecAlbumIncRespProto";
+
+message RecAlbumIncResp{
+	required int64 state = 1;
+	required string msg = 2;
+	optional Result result = 3;
+	message Result{
+		repeated int64 albumIdArray= 1;
+		required int64 lastReqTime = 2;
+	}
+	
+}

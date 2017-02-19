@@ -1,0 +1,9 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.album.req";
+option java_outer_classname = "RemoveVoiceReqProto";
+
+message RemoveVoiceReq{
+	required int64 userId=1;
+	required int64 albumId=2;
+	required int64 voiceId=3;
+}

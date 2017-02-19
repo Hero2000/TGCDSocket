@@ -1,0 +1,22 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.user.resp";
+option java_outer_classname = "RecommendedAppRespProto";
+
+message RecommendedAppResp{
+	required int64 state= 1;
+	
+	required string msg = 2;
+	
+	repeated ObjApp objApp = 3;
+	
+	message ObjApp{
+		required string appName=1;
+		required string appVersion=2;
+		required string appPackageName=3;
+		required string appLogo=4;
+		required string appSize=5;
+		required string appBriefDesc=6;
+		required string downloadUrl=7;
+	}
+
+}

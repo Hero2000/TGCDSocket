@@ -1,0 +1,29 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.user.resp";
+option java_outer_classname = "ViewPersonalInfoRespProto";
+
+message ViewPersonalInfoResp{
+	required int64 state= 1;
+	
+	required string msg = 2;
+	
+	optional Result result = 3;
+	
+	message Result {
+		required int64 userId=1;
+		required string nickname=2;
+		required string avatar=3;
+		required int64 sex=4;
+		required int64 level=5;
+		required int64 followCount=6;
+		optional int64 followerCount=7;
+		required int64 voiceCount=8;
+		optional int64 albumCount=9;
+		required string signature=10;
+		required string profile=11;
+		required int64 friendCount=12;
+		optional int64 friendState=13;
+		optional bool followState=14;
+		required string largeAvatar=15;
+	}
+}

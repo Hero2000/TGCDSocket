@@ -1,0 +1,9 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.user.req";
+option java_outer_classname = "ReadCustomerPrivateMsgReqProto";
+
+message ReadCustomerPrivateMsgReq{
+	required int64 userId = 1;
+	required int64 fromUserId = 2;
+	repeated int64 msgId = 3;
+}

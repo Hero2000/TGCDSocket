@@ -1,0 +1,15 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.common.resp";
+option java_outer_classname = "SplashRespProto";
+
+message SplashResp{
+	required int64 state = 1;	
+	required string msg = 2;
+	repeated ObjSplash objSplash = 3;
+
+	message ObjSplash {
+		required int64 splashType= 1;
+		required string showPic=2;
+		required string jumpUrl=3;
+	}
+}

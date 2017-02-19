@@ -1,0 +1,27 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.account.resp";
+option java_outer_classname = "LoginRespProto";
+
+message LoginResp{
+	required int64 state = 1;
+	optional string uuid = 2;
+	optional int64 authority = 3;
+	optional Result result = 4;
+
+	message Result{
+		required int64 userId = 1;
+		required string nickname = 2;
+		required string avatar = 3;
+		required int64 voiceCount = 4;
+		required int64 albumCount = 5;
+		required int64 followCount = 6;
+		required int64 friendCount = 7;
+		required int64 followerCount = 8;
+		required string signature = 9;
+		required string bindEmail = 10;
+		required string bindMobile = 11;
+		required int64 level = 12;
+		required int64 latestVersion = 13;
+	}
+	
+}

@@ -1,0 +1,8 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.common.req";
+option java_outer_classname = "PullReadPrivateMsgReqProto";
+
+message PullReadPrivateMsgReq{
+	required int64 userId=1;
+	required int64 lastReqTime = 2;
+}

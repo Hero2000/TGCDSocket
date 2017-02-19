@@ -1,0 +1,14 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.account.req";
+option java_outer_classname = "LoginReqProto";
+
+message LoginReq{
+	required int32 loginType = 1;
+	required string username = 2;
+	optional string password = 3;
+	required int32 appVersion = 4;
+	required bool isFirstLogin = 5;
+	optional string nickname = 6;
+	optional string avatar = 7;
+	optional string regChannel = 8;
+}

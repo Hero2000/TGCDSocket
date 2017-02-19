@@ -1,0 +1,22 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.group.resp";
+option java_outer_classname = "GroupMainpageRespProto";
+
+message GroupMainpageResp{
+	required int64 state = 1;
+	required string msg = 2;
+	optional Result result = 3;
+	
+	message Result{
+		required string groupName=1;
+		required string groupLogo=2;
+		required string groupDesc=3;
+		required int64 memberCount=4;
+		required int64 voiceCount = 5;
+		repeated ObjMember objMember = 6;
+	}
+	message ObjMember{
+		required int64 userId=1;		
+		required string avatar=2;
+	}
+}

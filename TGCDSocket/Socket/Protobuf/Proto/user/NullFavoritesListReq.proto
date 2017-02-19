@@ -1,0 +1,7 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.user.req";
+option java_outer_classname = "NullFavoritesListReqProto";
+
+message NullFavoritesListReq{
+	required int64 userId=1;
+}

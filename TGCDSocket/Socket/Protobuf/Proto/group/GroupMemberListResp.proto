@@ -1,0 +1,21 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.group.resp";
+option java_outer_classname = "GroupMemberListRespProto";
+
+message GroupMemberListResp{
+	required int64 state = 1;
+	required string msg = 2;
+	optional Result result = 3;
+	
+	message Result{
+		required int64 totalCount=1;
+		required int64 thisReqTime = 2;
+		repeated ObjMember objMember = 3;
+	}
+	message ObjMember{
+		required int64 userId=1;		
+		required string nickname=2;
+		required string avatar=3;
+		required int64 level = 4;
+	}
+}

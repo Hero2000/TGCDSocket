@@ -1,0 +1,10 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.album.req";
+option java_outer_classname = "AlbumListRecommendedReqProto";
+
+message AlbumListRecommendedReq{
+	required int64 userId=1;
+	optional int64 lastReqTime=2;
+	optional int32 page=3[default=1];
+	optional int32 pageSize=4[default=10];
+}

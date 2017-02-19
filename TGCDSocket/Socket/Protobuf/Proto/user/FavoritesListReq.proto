@@ -1,0 +1,8 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.user.req";
+option java_outer_classname = "FavoritesListReqProto";
+
+message FavoritesListReq{
+	required int64 userId=1;
+    required int64 lastReqTime=2;
+}

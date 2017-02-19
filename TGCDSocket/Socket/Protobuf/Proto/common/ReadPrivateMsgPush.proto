@@ -1,0 +1,8 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.common.push";
+option java_outer_classname = "ReadPrivateMsgPushProto";
+
+message ReadPrivateMsgPush{
+	repeated int64 msgId=1;
+	required int64 toUserId = 2;
+}

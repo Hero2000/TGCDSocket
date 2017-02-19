@@ -1,0 +1,14 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.common.resp";
+option java_outer_classname = "PullReadPrivateMsgRespProto";
+
+message PullReadPrivateMsgResp{
+	required int64 state=1;
+	required string msg = 2;
+	required int64 thisReqTime=3;
+	repeated ObjRead objRead = 4;
+	message ObjRead{
+		required int64 msgId=1;
+		required int64 toUserId = 2;
+	}
+}

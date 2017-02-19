@@ -1,0 +1,10 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.topic.resp";
+option java_outer_classname = "CancelLikeTopicDiscussRespProto";
+
+message CancelLikeTopicDiscussResp{
+	required int64 state = 1;
+	
+	required string msg = 2;
+
+}

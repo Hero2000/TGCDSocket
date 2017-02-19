@@ -1,0 +1,10 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.user.resp";
+option java_outer_classname = "SendCustomerPrivateMsgRespProto";
+
+message SendCustomerPrivateMsgResp{
+	required int64 state = 1;
+	required string msg = 2;
+	required int64 msgId = 3;
+	required int64 sendTime = 4;	
+}

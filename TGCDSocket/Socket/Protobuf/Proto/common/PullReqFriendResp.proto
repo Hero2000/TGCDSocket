@@ -1,0 +1,24 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.common.resp";
+option java_outer_classname = "PullReqFriendRespProto";
+
+message PullReqFriendResp{
+	required int64 state=1;
+	required string msg = 2;
+	required int64 thisReqTime=3;
+	repeated ObjFriendReq objFriendReq = 4;
+	message ObjFriendReq {
+		required int64 fromUserId=1;
+		required string fromNickname = 2;
+		required string fromAvatar = 3;
+		required int64 fromLevel = 4;
+		required int64 toUserId = 5;
+		required string toNickname=6;
+		required string toAvatar = 7;
+		required int64 toLevel = 8;
+		optional string msg = 9;
+		required int64 createTime = 10;
+		required int64 dealTime = 11;
+		required int64 state = 12;
+	}
+}

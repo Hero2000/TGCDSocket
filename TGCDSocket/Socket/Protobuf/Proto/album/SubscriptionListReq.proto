@@ -1,0 +1,12 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.album.req";
+option java_outer_classname = "SubscriptionListReqProto";
+
+message SubscriptionListReq{
+	required int64 userId=1;
+	required int64 otherUserId=2;
+	required int64 lastReqTime=3;
+	required int32 page=4;
+	required int32 pageSize=5;
+
+}

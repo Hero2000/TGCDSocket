@@ -1,0 +1,30 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.user.resp";
+option java_outer_classname = "UserListFriendRespProto";
+
+message UserListFriendResp{
+	required int64 state= 1;
+	
+	required string msg = 2;
+	
+	optional Result result = 3;
+	
+	message Result {
+		required int64 lastReqTime=1;
+		required int64 totalCount=2;
+		repeated ObjFriend objFriend=3;
+		required int64 pageCount=4;
+	}
+	
+	message ObjFriend{
+		required string avatar=1;
+		required string nickname=2;
+		required int64 level=3;
+		required int64 userId=4;
+		required string signature=5;
+		required int64 commonFriendCount = 6;
+		required int64 friendState=7;
+		required bool followState=8;
+	}
+
+}

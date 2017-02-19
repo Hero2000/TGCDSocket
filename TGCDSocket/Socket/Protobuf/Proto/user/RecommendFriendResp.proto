@@ -1,0 +1,32 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.user.resp";
+option java_outer_classname = "RecommendFriendRespProto";
+
+message RecommendFriendResp{
+	required int64 state = 1;
+	required string msg = 2;
+	optional Result result = 3;
+	message Result{
+		required int64 totalCount = 1;
+		required int64 lastReqTime = 2;
+		repeated ObjFriend objFriend = 3;
+	}
+	
+	message ObjFriend{
+	
+		required int64 userId=1;		
+		required string nickname=2;
+		required string avatar=3;
+		required int64 level=4;
+		
+		required int64 commentCount=5;
+		required int64 forwardCount=6;
+		required int64 likeCount=7;
+		required int64 playCount=8;
+
+		required int64 albumVoiceCount =9;
+		required int64 updVoiceCount = 10;
+	}
+	
+	
+}

@@ -1,0 +1,13 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.voice.req";
+option java_outer_classname = "ReplyCommentReqProto";
+
+message ReplyCommentReq{
+	required int64 userId=1;
+	required int64 lastReplyId=2;
+	required int64 toUserId=3;
+	required int64 replyType=4;
+	optional string replyContent=5;
+	required int64 replyLength=6;
+	required int64 commentId=7;
+}

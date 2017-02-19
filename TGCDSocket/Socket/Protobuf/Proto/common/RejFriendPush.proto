@@ -1,0 +1,9 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.common.push";
+option java_outer_classname = "RejFriendPushProto";
+
+message RejFriendPush{
+	required int64 rejUserId=1;
+	required string rejNickname = 2;
+	required int64 rejTime = 3;
+}

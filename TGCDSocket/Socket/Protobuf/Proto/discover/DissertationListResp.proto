@@ -1,0 +1,31 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.discover.resp";
+option java_outer_classname = "DissertationListRespProto";
+
+message DissertationListResp{
+	required int64 state= 1;
+	
+	required string msg = 2;
+		
+	optional Result result = 3;
+
+	message Result{
+		required int64 lastReqTime= 1;
+		required int64 pageCount=2;
+		required int64 totalCount=3;
+		repeated ObjDissertation objDissertation =4;
+	}
+
+	message ObjDissertation {
+		required int64 dissertationId=1;
+		required string dissertationName=2;
+		repeated ObjAlbum objAlbum =3;
+	}
+	
+	message ObjAlbum {
+		required int64 albumId =1;
+		required string albumName =2;
+		required string albumCover =3;
+	}
+
+}

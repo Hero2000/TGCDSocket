@@ -1,0 +1,8 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.common.resp";
+option java_outer_classname = "DeleteManyNotifRespProto";
+
+message DeleteManyNotifResp{
+	required int64 state=1;
+	required string msg = 2;
+}

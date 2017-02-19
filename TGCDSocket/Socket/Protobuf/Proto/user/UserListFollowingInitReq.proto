@@ -1,0 +1,8 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.user.req";
+option java_outer_classname = "UserListFollowingInitReqProto";
+
+message UserListFollowingInitReq{
+	required int64 userId=1;
+	repeated int64 userIdArray= 2;
+}

@@ -1,0 +1,11 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.album.req";
+option java_outer_classname = "SearchAlbumReqProto";
+
+message SearchAlbumReq{
+	required int64 userId=1;
+	required int32 page=2;
+	required int32 pageSize=3;
+	optional int64 lastReqTime=4;
+	required string keywords=5;
+}

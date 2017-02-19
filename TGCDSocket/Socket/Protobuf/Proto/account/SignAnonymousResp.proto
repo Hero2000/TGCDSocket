@@ -1,0 +1,8 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.account.resp";
+option java_outer_classname = "SignAnonymousResp";
+
+message SignAnonymousResp{
+	required bool isSucceed=1;
+	required string uuid=2;
+}

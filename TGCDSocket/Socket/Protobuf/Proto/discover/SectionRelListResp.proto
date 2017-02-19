@@ -1,0 +1,40 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.discover.resp";
+option java_outer_classname = "SectionRelListRespProto";
+
+message SectionRelListResp{
+	required int64 state= 1;
+	
+	required string msg = 2;
+	
+	optional Result result = 3;
+	
+	message Result{
+		required int64 lastReqTime=1;
+		required int64 pageCount=2;
+		required int64 totalCount=3;
+		repeated ObjSectionRel objSectionRel=4;
+	}
+
+
+	message ObjSectionRel {	
+		optional string nickname=1;
+		optional string avatar=2;
+		optional int64 level=3;
+		optional int64 voiceId=4;
+		optional string voiceName=5;
+		repeated string voicePic=6;
+		optional int64 playCount=7;
+		optional int64 userId=8;
+		optional int64 albumId=9;
+		optional string albumName=10;
+		optional string albumDesc=11;
+		optional string albumCover=12;
+		optional int64 subscribeCount=13;
+		optional int64 albumVoiceCount=14;
+		optional string voicePath=15;
+		optional int64 voiceLength=16;
+		optional int64 releaseTime=17;
+	}
+	
+}

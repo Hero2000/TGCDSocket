@@ -1,0 +1,9 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.user.req";
+option java_outer_classname = "EditFavoritesNameReqProto";
+
+message EditFavoritesNameReq{
+	required int64 userId=1;
+	required string oldFavoriteName=2;
+	required string newFavoriteName=3;
+}

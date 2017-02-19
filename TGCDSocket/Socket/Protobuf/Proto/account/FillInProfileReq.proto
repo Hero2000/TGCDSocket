@@ -1,0 +1,10 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.account.req";
+option java_outer_classname = "FillInProfileReqProto";
+
+message FillInProfileReq{
+	required int64 userId= 1;
+	required string signature= 2;
+	required int64 sex= 3;
+	required string nickname = 4;
+}

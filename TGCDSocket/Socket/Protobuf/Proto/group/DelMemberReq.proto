@@ -1,0 +1,10 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.group.req";
+option java_outer_classname = "DelMemberReqProto";
+
+message DelMemberReq{
+	required int64 groupId = 1;
+	required int64 userId=2;
+	required int64 delUserId=3;
+	
+}

@@ -1,0 +1,27 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.common.resp";
+option java_outer_classname = "PullPrivateMsgRespProto";
+
+message PullPrivateMsgResp{
+	required int64 state=1;
+	required string msg = 2;
+	required int64 thisReqTime=3;
+	repeated ObjPrivateMsg objPrivateMsg = 4;
+	message ObjPrivateMsg{
+		required int64 msgId=1;
+		required int64 fromUserId = 2;
+		required int64 toUserId = 3;
+		required int64 msgType = 4;
+		required string msgContent = 5;
+		optional int64 msgLength = 6;
+		required int64 sendTime = 7;
+		required bool readState = 8;
+		optional ObjVoice objVoice = 9;
+	}
+		message ObjVoice {
+		required int64 voiceId = 1;
+		required string voiceName = 2;
+		repeated string voicePic = 3;
+		required string voicePath = 4;
+	}
+}

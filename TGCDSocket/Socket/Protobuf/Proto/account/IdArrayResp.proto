@@ -1,0 +1,19 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.account.resp";
+option java_outer_classname = "IdArrayRespProto";
+
+message IdArrayResp{
+	required int64 state = 1;
+	required string msg = 2;
+	optional Result result = 3;
+	message Result{
+		repeated int64 groupIdArray= 1;
+		repeated int64 subscribeAlbumIdArray= 2;
+		repeated int64 recommendAlbumidArray= 3;
+		repeated int64 friendUserIdArray=4;
+		repeated int64 attentionUserIdArray=5;
+		repeated int64 releaseVoiceIdArray=6;
+		repeated int64 collectVoiceIdArray=7;
+		required int64 thisUpdtime = 8;
+	}
+}

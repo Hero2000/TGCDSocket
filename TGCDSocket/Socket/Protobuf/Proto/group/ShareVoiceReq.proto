@@ -1,0 +1,10 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.group.req";
+option java_outer_classname = "ShareVoiceReqProto";
+
+message ShareVoiceReq{
+	required int64 userId= 1 ;
+	required int64 groupId = 2;
+	required int64 voiceId = 3;
+	required string shareComment = 4;
+}

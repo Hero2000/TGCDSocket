@@ -1,0 +1,9 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.user.req";
+option java_outer_classname = "ThirdPartFriendReqProto";
+
+message ThirdPartFriendReq{
+	required int64 userId = 1;
+	required int32 type = 2;
+	repeated string thirdId = 3;
+}

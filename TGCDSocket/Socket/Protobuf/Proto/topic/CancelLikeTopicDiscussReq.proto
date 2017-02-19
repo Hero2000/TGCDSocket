@@ -1,0 +1,9 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.topic.req";
+option java_outer_classname = "CancelLikeTopicDiscussReqProto";
+
+message CancelLikeTopicDiscussReq{
+	required int64 userId=1;
+	required int64 topicId=2;
+	required int64 discussId=3;
+}

@@ -1,0 +1,13 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.album.req";
+option java_outer_classname = "AlbumVoiceListReqProto";
+
+message AlbumVoiceListReq{
+	required int64 userId=1;
+	required int64 albumId=2;
+	required int64 lastReqTime=3;
+	required int32 page=4;
+	required int32 pageSize=5;
+	optional string orderBy=6;
+	optional string order=7;
+}

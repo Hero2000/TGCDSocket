@@ -1,0 +1,37 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.voice.resp";
+option java_outer_classname = "ReplyListRespProto";
+
+message ReplyListResp{
+	required int64 state = 1;
+	
+	required string msg = 2;
+	
+	optional Result result = 3;
+	
+	message Result {
+		required int64 lastReqTime=1;
+		required int64 totalCount=2;
+		required int64 pageCount=3;
+		repeated ObjReply objReply =4;
+	}
+	message ObjReply {
+		required int64 	replyId=1;
+		required int64 commentId=2;
+		required int64 fromUserId=3;
+		required string fromAvatar=4;
+		required string fromNickname=5;
+		required int64 fromLevel=6;
+		required int64 toUserId=7;
+		required string toAvatar=8;
+		required string toNickname=9;
+		required int64 toLevel=10;
+		required int64 replyType=11;
+		required string replyContent=12;
+		required int64 lastReplyId=13;
+		required int64 replyLength=14;
+		required int64 replyTime=15;
+		required bool replierState=16;
+	}
+
+}

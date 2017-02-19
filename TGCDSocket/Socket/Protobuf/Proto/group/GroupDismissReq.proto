@@ -1,0 +1,9 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.group.req";
+option java_outer_classname = "GroupDismissReqProto";
+
+message GroupDismissReq{
+	required int64 groupId = 1;
+	required int64 userId = 2;
+	
+}

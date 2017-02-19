@@ -1,0 +1,8 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.user.resp";
+option java_outer_classname = "ReadCustomerPrivateMsgRespProto";
+
+message ReadCustomerPrivateMsgResp{
+	required int64 state = 1;
+	required string msg = 2;	
+}

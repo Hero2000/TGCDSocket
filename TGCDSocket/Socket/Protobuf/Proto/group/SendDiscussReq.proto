@@ -1,0 +1,11 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.group.req";
+option java_outer_classname = "SendDiscussReqProto";
+
+message SendDiscussReq{
+	required int64 userId= 1 ;
+	required int64 groupId = 2;
+	required int64 discussType = 3;
+	required string discussString = 4;
+	required int64 discussLength= 5 ;
+}

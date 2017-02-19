@@ -1,0 +1,22 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.common.resp";
+option java_outer_classname = "PullNewsNotifRespProto";
+
+message PullNewsNotifResp{
+	required int64 state=1;
+	required string msg = 2;
+	required int64 thisReqTime=3;
+	repeated ObjNewsNotif objNewsNotif = 4;
+	message ObjNewsNotif {
+		required int64 noticeId=1;
+		required int64 noticeType=2;
+		required int64 voiceId = 3;
+		required int64 relId = 4;
+		required int64 fromUserId = 5;
+		required int64 toUserId = 6;
+		required int64 createTime = 7;
+		required int64 dealStatus = 8;
+		required string fromNickname = 9;
+		optional string content = 10;
+	}
+}

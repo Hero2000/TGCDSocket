@@ -1,0 +1,12 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.voice.req";
+option java_outer_classname = "CommentVoiceReqProto";
+
+message CommentVoiceReq{
+	required int64 userId=1;
+	required int64 voiceId=2;
+	required int64 commentType=3;
+	required int64 commentLength=4;
+	required string comment=5;
+	
+}

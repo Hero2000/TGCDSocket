@@ -1,0 +1,12 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.discover.req";
+option java_outer_classname = "SectionRelListReqProto";
+
+message SectionRelListReq{
+	required int64 userId= 1;
+	required int64 sectionParentType= 2;
+	required int64 sectionType= 3;
+	required int64 lastReqTime= 4;
+	required int32 page= 5;
+	required int32 pageSize= 6;
+}

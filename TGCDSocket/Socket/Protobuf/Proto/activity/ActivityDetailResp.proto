@@ -1,0 +1,25 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.activity.resp";
+option java_outer_classname = "ActivityDetailRespProto";
+
+message ActivityDetailResp{
+	required int64 state= 1;
+	
+	required string msg = 2;
+		
+	optional Result result = 3;
+
+	message Result{
+		required int64 activityId=1;
+		required string activityPic=2;
+		required string activityName=3;
+		required string activityBrief=4;
+		required int64 startTime=5;
+		required int64 endTime=6;
+		required int64 activityType=7;
+		required string activityDesc=8;
+		required string participationWay=9;
+		required string awards=10;
+
+	}
+}

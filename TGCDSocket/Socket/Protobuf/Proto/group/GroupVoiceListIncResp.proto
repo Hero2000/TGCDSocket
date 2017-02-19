@@ -1,0 +1,14 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.group.resp";
+option java_outer_classname = "GroupVoiceIncListRespProto";
+
+message GroupVoiceListIncResp{
+	required int64 state = 1;
+	required string msg = 2;
+	optional Result result = 3;
+	
+	message Result {
+		repeated int64 voiceIdArray=1;
+		required int64 lastReqTime=2;
+	}
+}

@@ -1,0 +1,10 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.user.req";
+option java_outer_classname = "RecommendFriendReqProto";
+
+message RecommendFriendReq{
+	required int64 userId = 1;
+	required int64 lastReqTime = 2;
+	optional int32 page = 3;
+	required int32 pageSize = 4;
+}

@@ -1,0 +1,7 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.account.req";
+option java_outer_classname = "EditProtraitReqProto";
+
+message EditProtraitReq{
+	required int64 userId=1;
+}

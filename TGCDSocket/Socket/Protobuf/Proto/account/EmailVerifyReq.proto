@@ -1,0 +1,8 @@
+package jjd;
+option java_package = "Jjd.messagePush.vo.account.req";
+option java_outer_classname = "EmailVerifyReqProto";
+
+message EmailVerifyReq{
+	required string emailAddr= 1;
+	required string code = 2;
+}

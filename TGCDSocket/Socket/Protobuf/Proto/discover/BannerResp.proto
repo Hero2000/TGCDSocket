@@ -1,0 +1,23 @@
+package netty;
+option java_package = "Jjd.messagePush.vo.discover.resp";
+option java_outer_classname = "BannerRespProto";
+
+message BannerResp{
+	required int64 state= 1;
+	
+	required string msg = 2;
+		
+	optional Result result = 3;
+
+	message Result{
+		repeated ObjBanner objBanner=1;
+	}
+
+	message ObjBanner{
+		required int64 bannerType=1;
+		required string bannerPic=2;
+		required int64 relId=3;
+
+	}
+
+}
