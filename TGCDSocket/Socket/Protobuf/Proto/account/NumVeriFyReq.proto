@@ -1,8 +1,0 @@
-package jjd;
-option java_package = "Jjd.messagePush.vo.account.req";
-option java_outer_classname = "NumVeriFyReqProto";
-
-message NumVeriFyReq{
-	required string num= 1;
-	required int32 type = 2;
-}

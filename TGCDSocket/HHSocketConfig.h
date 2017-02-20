@@ -83,8 +83,8 @@ static NSUInteger const HHMaxResponseLength = 20000;
 #define MsgResponseCodeLength 0/** 消息状态码的长度 */
 #define MsgContentLength 0/** 消息内容的长度 */
 #define Adler32Length 0/** Adler32的长度 */
-#define MsgResponsePrefixLength (MsgTypeLength + MsgSerialNumberLength + MsgResponseCodeLength + MsgContentLength)/** 返回消息前16字节长度 */
-#define MsgResponseSuffixLength (Adler32Length + MsgTypeLength)/** 返回消息后12字节长度 */
+#define MsgResponsePrefixLength (MsgTypeLength + MsgSerialNumberLength + MsgResponseCodeLength + MsgContentLength)/** 返回消息前0字节长度 */
+#define MsgResponseSuffixLength (Adler32Length + MsgTypeLength)/** 返回消息后0字节长度 */
 #define MsgResponseHeaderLength (MsgResponsePrefixLength + MsgResponseSuffixLength)/** 返回的消息除去protobuf外的长度 */
 
 #endif

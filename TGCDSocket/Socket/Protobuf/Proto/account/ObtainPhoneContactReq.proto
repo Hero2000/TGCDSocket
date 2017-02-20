@@ -1,9 +1,0 @@
-package netty;
-option java_package = "Jjd.messagePush.vo.account.req";
-option java_outer_classname = "ObtainPhoneContactReqProto";
-
-message ObtainPhoneContactReq{
-	required int64 userId= 1;
-	repeated string contacts= 2;
-     
-}

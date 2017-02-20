@@ -1,7 +1,0 @@
-package jjd;
-option java_package = "Jjd.messagePush.vo.account.req";
-option java_outer_classname = "LogoutReqProto";
-
-message LogoutReq{
-	
-}

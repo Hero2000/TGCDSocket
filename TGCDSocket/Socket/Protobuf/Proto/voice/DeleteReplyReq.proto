@@ -1,9 +1,0 @@
-package netty;
-option java_package = "Jjd.messagePush.vo.voice.req";
-option java_outer_classname = "DeleteReplyReqProto";
-
-message DeleteReplyReq{
-	required int64 userId=1;
-	required int64 replyId=2;
-	required int64 commentId=3;
-}

@@ -1,8 +1,0 @@
-package netty;
-option java_package = "Jjd.messagePush.vo.account.resp";
-option java_outer_classname = "NumVerifyRespProto";
-
-message NumVerifyResp{
-	required int64 state = 1;
-	required string msg = 2;
-}

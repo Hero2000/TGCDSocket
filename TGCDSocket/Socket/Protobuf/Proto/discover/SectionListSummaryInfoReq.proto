@@ -1,7 +1,0 @@
-package netty;
-option java_package = "Jjd.messagePush.vo.discover.req";
-option java_outer_classname = "SectionListSummaryInfoReqProto";
-
-message SectionListSummaryInfoReq{
-	required int64 userId = 1;
-}

@@ -1,9 +1,0 @@
-package jjd;
-option java_package = "Jjd.messagePush.vo.account.resp";
-option java_outer_classname = "LogoutRespProto";
-
-message LogoutResp{
-	required int64 state= 1;
-	required string msg = 2;
-
-}

@@ -1,7 +1,0 @@
-package jjd;
-option java_package = "Jjd.messagePush.vo.account.req";
-option java_outer_classname = "SignAnonymousReqProto";
-
-message SignAnonymousReq{
-	required int64 terminal = 1;
-}

@@ -1,8 +1,0 @@
-package jjd;
-option java_package = "Jjd.messagePush.vo.group.resp";
-option java_outer_classname = "InviteRespProto";
-
-message InviteResp{
-	required int64 state=1;
-	required string msg = 2;
-}

@@ -1,9 +1,0 @@
-package jjd;
-option java_package = "Jjd.messagePush.vo.common.push";
-option java_outer_classname = "AcpFriendPushProto";
-
-message AcpFriendPush{
-	required int64 acpUserId=1;
-	required string acpNickname = 2;
-	required int64 acpTime = 3;
-}

@@ -1,8 +1,0 @@
-package jjd;
-option java_package = "Jjd.messagePush.vo.mainpage.req";
-option java_outer_classname = "RecAlbumReqProto";
-
-message RecAlbumReq{
-	required int64 userId = 1;
-	optional int64 lastReqTime = 2;
-}

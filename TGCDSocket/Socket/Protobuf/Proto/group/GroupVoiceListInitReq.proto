@@ -1,9 +1,0 @@
-package jjd;
-option java_package = "Jjd.messagePush.vo.group.req";
-option java_outer_classname = "GroupVoiceListInitReqProto";
-
-message GroupVoiceListInitReq{
-	required int64 userId=1;
-	required int64 groupId = 2;
-	repeated int64 voiceIdArray=3;
-}

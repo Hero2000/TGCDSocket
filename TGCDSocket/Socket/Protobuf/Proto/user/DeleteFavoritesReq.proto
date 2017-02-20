@@ -1,8 +1,0 @@
-package netty;
-option java_package = "Jjd.messagePush.vo.user.req";
-option java_outer_classname = "DeleteFavoritesReqProto";
-
-message DeleteFavoritesReq{
-	required int64 userId=1;
-	required string favoriteName=2;
-}

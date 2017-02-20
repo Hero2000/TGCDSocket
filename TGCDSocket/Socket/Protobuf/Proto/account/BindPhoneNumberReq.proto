@@ -1,8 +1,0 @@
-package netty;
-option java_package = "Jjd.messagePush.vo.account.req";
-option java_outer_classname = "BindPhoneNumberReqProto";
-
-message BindPhoneNumberReq{
-	required int64 userId= 1;
-	required string bindMobile= 2;
-}

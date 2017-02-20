@@ -1,9 +1,0 @@
-package netty;
-option java_package = "Jjd.messagePush.vo.user.req";
-option java_outer_classname = "FeedBackReqProto";
-
-message FeedBackReq{
-	required int64 userId=1;
-	required string content=2;
-	optional string contact=3;
-}

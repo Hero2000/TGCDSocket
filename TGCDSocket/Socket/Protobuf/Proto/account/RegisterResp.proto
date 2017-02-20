@@ -1,9 +1,0 @@
-package netty;
-option java_package = "Jjd.messagePush.vo.account.resp";
-option java_outer_classname = "RegisterRespProto";
-
-message RegisterResp{
-	required int64 state = 1;
-	required string msg = 2;
-	required int64 userId = 3;
-}
