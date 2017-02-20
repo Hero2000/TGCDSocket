@@ -11,14 +11,14 @@
 		9D05B53A1D81162800D3193E /* HHSocketAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D05B5391D81162800D3193E /* HHSocketAPIManager.m */; };
 		9D05B5461D8149BA00D3193E /* OTSFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D05B5451D8149BA00D3193E /* OTSFriend.m */; };
 		9D05B54A1D814A0800D3193E /* NSObject+LogAllProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D05B5491D814A0800D3193E /* NSObject+LogAllProperties.m */; };
+		9D3286CA1E5B03F1007B6381 /* HHClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3286C71E5B03F1007B6381 /* HHClassInfo.m */; };
+		9D3286CB1E5B03F1007B6381 /* NSObject+ProtobufExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3286C91E5B03F1007B6381 /* NSObject+ProtobufExtension.m */; };
 		9D40AB181D77B87A00D99DEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D40AB171D77B87A00D99DEF /* main.m */; };
 		9D40AB1B1D77B87A00D99DEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D40AB1A1D77B87A00D99DEF /* AppDelegate.m */; };
 		9D40AB1E1D77B87A00D99DEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D40AB1D1D77B87A00D99DEF /* ViewController.m */; };
 		9D40AB211D77B87A00D99DEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D40AB1F1D77B87A00D99DEF /* Main.storyboard */; };
 		9D40AB231D77B87A00D99DEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D40AB221D77B87A00D99DEF /* Assets.xcassets */; };
 		9D40AB261D77B87A00D99DEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D40AB241D77B87A00D99DEF /* LaunchScreen.storyboard */; };
-		9D40B0A11D77C2A200D99DEF /* NSObject+ProtobufExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D40B09E1D77C2A200D99DEF /* NSObject+ProtobufExtension.m */; };
-		9D40B0A21D77C2A200D99DEF /* HHClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D40B0A01D77C2A200D99DEF /* HHClassInfo.m */; };
 		9D40B0F11D77C42B00D99DEF /* HHSocketTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D40B0F01D77C42B00D99DEF /* HHSocketTask.m */; };
 		9D40B0F41D77D27E00D99DEF /* HHSocketRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D40B0F31D77D27E00D99DEF /* HHSocketRequest.m */; };
 		9D40B0F71D77D78B00D99DEF /* HHDataFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D40B0F61D77D78B00D99DEF /* HHDataFormatter.m */; };
@@ -39,6 +39,10 @@
 		9D05B5451D8149BA00D3193E /* OTSFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSFriend.m; sourceTree = "<group>"; };
 		9D05B5481D814A0800D3193E /* NSObject+LogAllProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LogAllProperties.h"; sourceTree = "<group>"; };
 		9D05B5491D814A0800D3193E /* NSObject+LogAllProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LogAllProperties.m"; sourceTree = "<group>"; };
+		9D3286C61E5B03F1007B6381 /* HHClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HHClassInfo.h; path = APIManager/HHClassInfo.h; sourceTree = "<group>"; };
+		9D3286C71E5B03F1007B6381 /* HHClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HHClassInfo.m; path = APIManager/HHClassInfo.m; sourceTree = "<group>"; };
+		9D3286C81E5B03F1007B6381 /* NSObject+ProtobufExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+ProtobufExtension.h"; path = "APIManager/NSObject+ProtobufExtension.h"; sourceTree = "<group>"; };
+		9D3286C91E5B03F1007B6381 /* NSObject+ProtobufExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ProtobufExtension.m"; path = "APIManager/NSObject+ProtobufExtension.m"; sourceTree = "<group>"; };
 		9D40AB131D77B87900D99DEF /* TGCDSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGCDSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D40AB171D77B87A00D99DEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D40AB191D77B87A00D99DEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,10 +54,6 @@
 		9D40AB251D77B87A00D99DEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D40AB271D77B87A00D99DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D40AB311D77BC5F00D99DEF /* HHSocketConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HHSocketConfig.h; path = ../../HHSocketConfig.h; sourceTree = "<group>"; };
-		9D40B09D1D77C2A200D99DEF /* NSObject+ProtobufExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+ProtobufExtension.h"; path = "../APIManager/NSObject+ProtobufExtension.h"; sourceTree = "<group>"; };
-		9D40B09E1D77C2A200D99DEF /* NSObject+ProtobufExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ProtobufExtension.m"; path = "../APIManager/NSObject+ProtobufExtension.m"; sourceTree = "<group>"; };
-		9D40B09F1D77C2A200D99DEF /* HHClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HHClassInfo.h; path = ../APIManager/HHClassInfo.h; sourceTree = "<group>"; };
-		9D40B0A01D77C2A200D99DEF /* HHClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HHClassInfo.m; path = ../APIManager/HHClassInfo.m; sourceTree = "<group>"; };
 		9D40B0EF1D77C42B00D99DEF /* HHSocketTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSocketTask.h; sourceTree = "<group>"; };
 		9D40B0F01D77C42B00D99DEF /* HHSocketTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSocketTask.m; sourceTree = "<group>"; };
 		9D40B0F21D77D27E00D99DEF /* HHSocketRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSocketRequest.h; sourceTree = "<group>"; };
@@ -111,6 +111,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9D3286C51E5B03D4007B6381 /* Protocolbuffer */ = {
+			isa = PBXGroup;
+			children = (
+				9D3286C61E5B03F1007B6381 /* HHClassInfo.h */,
+				9D3286C71E5B03F1007B6381 /* HHClassInfo.m */,
+				9D3286C81E5B03F1007B6381 /* NSObject+ProtobufExtension.h */,
+				9D3286C91E5B03F1007B6381 /* NSObject+ProtobufExtension.m */,
+			);
+			name = Protocolbuffer;
+			sourceTree = "<group>";
+		};
 		9D40AB0A1D77B87900D99DEF = {
 			isa = PBXGroup;
 			children = (
@@ -161,7 +172,7 @@
 		9D40AB341D77C25600D99DEF /* Socket */ = {
 			isa = PBXGroup;
 			children = (
-				9D40AB361D77C25600D99DEF /* Protobuf */,
+				9D3286C51E5B03D4007B6381 /* Protocolbuffer */,
 				9D40AB351D77C25600D99DEF /* SocketClient */,
 			);
 			path = Socket;
@@ -176,17 +187,6 @@
 			);
 			name = SocketClient;
 			path = APIManager;
-			sourceTree = "<group>";
-		};
-		9D40AB361D77C25600D99DEF /* Protobuf */ = {
-			isa = PBXGroup;
-			children = (
-				9D40B09F1D77C2A200D99DEF /* HHClassInfo.h */,
-				9D40B0A01D77C2A200D99DEF /* HHClassInfo.m */,
-				9D40B09D1D77C2A200D99DEF /* NSObject+ProtobufExtension.h */,
-				9D40B09E1D77C2A200D99DEF /* NSObject+ProtobufExtension.m */,
-			);
-			path = Protobuf;
 			sourceTree = "<group>";
 		};
 		9D769FF91E55ABBF0064B02A /* Utils */ = {
@@ -363,9 +363,9 @@
 				9D769FEB1E5548210064B02A /* HHSocketClient.m in Sources */,
 				9D769FF71E558E630064B02A /* HHAppContext.m in Sources */,
 				9D769FFE1E55AC140064B02A /* HHNetworkAPIRecorder.m in Sources */,
-				9D40B0A11D77C2A200D99DEF /* NSObject+ProtobufExtension.m in Sources */,
-				9D40B0A21D77C2A200D99DEF /* HHClassInfo.m in Sources */,
 				9D40B0F41D77D27E00D99DEF /* HHSocketRequest.m in Sources */,
+				9D3286CB1E5B03F1007B6381 /* NSObject+ProtobufExtension.m in Sources */,
+				9D3286CA1E5B03F1007B6381 /* HHClassInfo.m in Sources */,
 				9DAA74821E4DA4B40075D77C /* HHSocketHeartbeat.m in Sources */,
 				9D05B5461D8149BA00D3193E /* OTSFriend.m in Sources */,
 				9D40B0F71D77D78B00D99DEF /* HHDataFormatter.m in Sources */,
